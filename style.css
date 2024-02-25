@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("weather_image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh; /* Set the height to fill the viewport */
+  margin: 0; /* Remove default margin */
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(57, 165, 169, 0.447); /* Set the background color to be transparent */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(30, 109, 194, 0.3); /* Adjust the alpha value here for the box shadow transparency */
+  margin-top: 105px;
+}
+
+h1 {
+  font-size: 24px;
+  font-family: cursive;
+}
+
+p,span {
+  display: none;
+  padding: 20px;
+}
+
+div:hover p {
+  display: block;
+}
+div:hover span {
+  display: inline-block;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #3e1fae39;
+  border-radius: 5px;
+
+}
+
+button {
+  background-color: #4596ec;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.weather-info {
+  margin-top: 20px;
+}
